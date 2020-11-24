@@ -1,0 +1,17 @@
+[user]
+	name = scottmatthewman
+	email = scott@kyan.com
+	signingkey = 674635E5A5CEFB73
+[commit]
+	verbose = true
+[core]
+	editor = code --wait
+	excludesFile = ~/.gitignore
+[diff]
+	tool = default-difftool
+[difftool "default-difftool"]
+	cmd = code --wait --diff $LOCAL $REMOTE
+[pull]
+	ff = only
+[rebase]
+	autosquash = true
